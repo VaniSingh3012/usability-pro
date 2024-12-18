@@ -57,3 +57,28 @@
       align-items: center;
     }
 }
+@media screen (max width:479px) {
+  h1{
+    font-size: 2rem;
+  }
+  h2{
+    font-size: 1.5rem;
+  }
+  h3{
+    font-size: 1.2rem;
+  }
+  :root{
+    --padding-inline-section: 5px;
+  }
+  p{
+    font-size: 1 rem;
+  }
+} 
+  .feature-card{
+    min-width: 100%;
+    margin-block: 20px;
+  }
+  .example-card{
+    width: 100%;
+  }
+  }
